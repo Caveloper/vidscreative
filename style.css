@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FBFBFD;
+}
+
+#brand {
+    width: 25px;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+.price {
+    color: #86868B;
+    text-align: center;
+}
+
+.link a{
+    text-align: center;
+}
+
+video {
+    display: grid;
+    margin-top: 20px;
+    width: 75%;
+    align-content: space-around;
+}
+
+#branding {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+#promotion {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: black; */
+    /* color: #fff; */
+}
+
+.fixed-bottom {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: #FBFBFD;
+}
+
+footer {
+    margin: 50px;
+}
+
+@media (max-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+
+    footer {
+        margin-bottom: 8em;
+      }
+}
